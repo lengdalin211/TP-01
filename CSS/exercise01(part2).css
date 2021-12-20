@@ -1,0 +1,43 @@
+body{
+    background-color: #fff;
+}
+.wrapper{
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(163, 161, 161);
+    padding: 2px;
+    align-items: center;
+}
+.flying-box{
+    position: absolute;
+    border: 1px solid rgb(190, 82, 10);
+    background-color:  rgb(190, 82, 10);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/*
+.wrapper{
+    margin: auto;
+    border: 1px solid rgb(190, 82, 10);
+    background-color:  rgb(190, 82, 10);
+    width: 250px;
+    height: 80px;
+    margin-top: 300px;
+}
+.flying-box{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+*/
