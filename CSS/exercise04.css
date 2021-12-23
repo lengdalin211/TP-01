@@ -1,0 +1,33 @@
+.wrapper{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+    justify-content: center;
+    text-align: center;
+}
+.drop {
+    transition: transform 2s ease-out;
+    animation-delay: 2s;
+    animation: top-to-middle 4s ease-out;
+}
+.wrapper:hover .drop{
+    animation: top-to-middle 4s ease-out;
+}
+@keyframes top-to-middle{
+    50%{
+      transform: translateX(50%) translateY(50%);
+    } 
+    100%{
+      transform: translateY(50%);
+    }
+}
+
+ /* .drop{
+    animation: drop 1s ease-in-out;
+    animation-delay: 2s;
+  }
+  @keyframes drop{
+    from {transform: translate(-100px)}
+    to { transform: translate(0px);}
+  } */
